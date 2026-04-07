@@ -75,7 +75,9 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`[Write here]`
+`This project is an interactive ping pong launcher designed as a playful human–machine game. The system uses a motorized launcher to continuously shoot ping pong balls toward a player, who responds with a racket, creating a rally-like experience. The machine essentially acts as a dynamic training partner, turning a simple mechanical setup into an engaging and exciting interactive system.
+
+The experience is fun and engaging because it blends control and unpredictability — users must constantly react to changing ball speeds and angles. It becomes competitive as players try to sustain longer rallies or handle increasing difficulty levels. The project combines mechanical systems (motors, launcher mechanism), electronics (ESP32, sensors, LEDs), and interaction design to create a satisfying, physical, and playful experience as an interactive game`
 
 ---
 
@@ -101,7 +103,14 @@ Answer the following:
 - Why would someone want to try it again?
 
 **Response:**  
-`[Write here]`
+`What is the experience?
+The project creates a playful, physical game where a user plays ping pong against a machine that continuously launches balls. It feels like a hybrid between a game and a training partner, where the user actively responds to rapidly incoming balls. The experience is immediate and intuitive — you step in, pick up a racket, and start playing.
+
+What do you want the player or participant to feel?
+I want the user to feel a mix of excitement, challenge, and slight unpredictability. It should feel engaging, slightly chaotic at higher speeds, and satisfying when the user successfully keeps a rally going.
+
+Why would someone want to try it again?
+Because the experience changes based on how the user interacts with it — they can try different speeds, angles, and modes, making each round slightly different. The challenge of improving their shots and reaction time or sustaining longer rallies encourages repeat attempts, while the playful nature of competing with a machine makes it fun to come back and try again.`
 
 ## 2.3 Design Persona
 Complete the sentence below:
@@ -109,7 +118,7 @@ Complete the sentence below:
 > We are designing this project as if we are a small creative studio making a **[toy / game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]**.
 
 **Response:**  
-`[Write here]`
+`[ We are designing this project as if we are a small creative studio making a **[game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]`
 
 ---
 
@@ -120,15 +129,17 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
+| `[Video]` | `[(https://youtu.be/tKqPbJfTlDg?si=A5O6gLvXLh6896KT)]` | `[Showed how a machine can continuously launch balls and create a rally-like experience similar to playing with a real opponent.]` |
+| `[Website]` | `[(https://www.pcbway.com/project/shareproject/Ping_Pong_Robot_V1_DIY_0c6b7731.html)]` | `[Helped understand how ping pong launchers are built using motors and how angle affects the ball direction.]` |
+| `[Website]` | `[Link or title](https://www.instructables.com/Ping-Pong-Ball-Launcher-2/)]` | `[Gave a simple idea of how to build a ball launcher using basic materials and components.]` |
 
 ## 3.2 Original Twist
 What makes your project original?
 
 **Response:**  
-`[Write here]`
+`[What makes this project different is that it treats a simple ping pong launcher as an interactive experience rather than just a machine. The focus is not on building a perfect or accurate robot, but on creating a situation where a person actively engages with it — reacting, adjusting, and trying to keep up.
+
+The machine continuously fires balls, so the experience feels fast, slightly unpredictable, and physically engaging. It becomes less about control and more about reaction, rhythm, and endurance. This makes it feel more like playing against something alive rather than using a device, which encourages people to try again and improve.]`
 
 ---
 
