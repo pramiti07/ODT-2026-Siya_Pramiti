@@ -52,20 +52,20 @@ By the final review, this README should clearly show:
 # 1. Team Identity
 
 ## 1.1 Studio / Group Name
-`[Enter your group name]`
+`ODT-2026-Siya_Pramiti`
 
 ## 1.2 Team Members
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `[Student 1]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
-| `[Student 2]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `[Pramiti Goel]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `[Siya Ghorpade]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
 
 ## 1.3 Project Title
-`[Enter the title of your project]`
+`[TT Ball Launcher]`
 
 ## 1.4 One-Line Pitch
-`[Describe your project in one sentence]`
+`[A Arduino-powered rhythmic table tennis ball launcher designed to automate solo training with customizable shot patterns, speed, and frequency.]`
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
