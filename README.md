@@ -143,8 +143,6 @@ The machine continuously fires balls, so the experience feels fast, slightly unp
 
 ---
 
-# 4. Project Intent
-
 ## 4.1 Core Interaction Loop
 Describe the main loop of interaction.
 
@@ -155,37 +153,37 @@ Examples:
 - move object → sensor detects → sound/light response → player reacts
 
 **Response:**  
-`[Write here]`
+`press- (launch- react)repeat`
 
 ## 4.2 Intended Player / Audience
 
 | Question | Response |
 |---|---|
-| Who is this for? | `[Write here]` |
-| Age range | `[Write here]` |
-| Solo or multiplayer | `[Write here]` |
-| Expected duration of one round | `[Write here]` |
-| What should the player feel? | `[Write here]` |
-| Is explanation required before use? | `[Write here]` |
+| Who is this for? | `table tennis enthusiast` |
+| Age range | `above 10years` |
+| Solo or multiplayer | `solo` |
+| Expected duration of one round | `30 sec` |
+| What should the player feel? | `engaging and rewarding` |
+| Is explanation required before use? | `yes` |
 
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
 
-1. **Approach:** `[How does the player first encounter it?]`
-2. **Start:** `[How do they begin?]`
-3. **First Action:** `[What do they do first?]`
-4. **Main Interaction:** `[What keeps happening during use?]`
-5. **System Response:** `[How does the project respond?]`
-6. **Win / Lose / End Condition:** `[How does one round end?]`
-7. **Reset:** `[How does the next round begin?]`
+1. **Approach:** `addint of a fixed number off balls in the machine  `
+2. **Start:** `press start`
+3. **First Action:** `stand at a specific distance from the machine`
+4. **Main Interaction:** `tackeling of the ball`
+5. **System Response:** `irrespective of wher ethe ball goes the machine shoots another in the delay of 2 sec.`
+6. **Win / Lose / End Condition:** `every person have a certain amount of points`
+7. **Reset:** `re-stalking of the tennis balls in the machine and pressing start`
 
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
-- `[Rule 1]`
-- `[Rule 2]`
-- `[Rule 3]`
-- `[Rule 4]`
+- `every person gets to play a fixed amount of serves`
+- `the ball should bounce on their and the oponents side one after the other`
+- `unable to follow the above rule there is no point giben, i.e, 0, ortherwise +1`
+- `whoever has the maximum points inthe team wins`
 
 ---
 
@@ -194,11 +192,11 @@ If your project is a game, list the rules clearly.
 ## 5.1 Definition of “Playable”
 Your project will be considered complete only if these conditions are met.
 
-- [ ] `[Condition 1]`
-- [ ] `[Condition 2]`
-- [ ] `[Condition 3]`
-- [ ] `[Condition 4]`
-- [ ] `[Condition 5]`
+- [ ] `[the machine shoots all the balls kept in the machine]`
+- [ ] `[the maching shoots the ball at a human opponent in a fixed time interval]`
+- [ ] `[the machine rotates so as to break the monotamy of the shooting patern]`
+- [ ] `[it changes the angle of shooting, therefore changing teh hight at which the ball is recived]`
+- [ ] `[it statrs afyer the start button is pressed + time delay]`
 
 ## 5.2 Minimum Viable Version
 What is the smallest version of this project that still delivers the core experience?
@@ -209,9 +207,9 @@ What is the smallest version of this project that still delivers the core experi
 ## 5.3 Stretch Features
 What features are nice to have but not essential?
 
-- `[Stretch feature 1]`
-- `[Stretch feature 2]`
-- `[Stretch feature 3]`
+- `[movement of the whole machine on the table side by side]`
+- `[speed difference]`
+- `[]`
 
 ---
 
