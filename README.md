@@ -65,7 +65,8 @@ By the final review, this README should clearly show:
 `[TT Ball Launcher]`
 
 ## 1.4 One-Line Pitch
-`[A Arduino-powered rhythmic table tennis ball launcher designed to automate solo training with customizable shot patterns, speed, and frequency.]`
+`[ Smash or pass-
+ A Arduino-powered rhythmic table tennis ball launcher designed as to shoot 6 table tennise balls .]`
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
@@ -75,9 +76,9 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`This project is an interactive ping pong launcher designed as a playful human–machine game. The system uses a motorized launcher to continuously shoot ping pong balls toward a player, who responds with a racket, creating a rally-like experience. The machine essentially acts as a dynamic training partner, turning a simple mechanical setup into an engaging and exciting interactive system.
+`This project is an interactive ping pong launcher designed as a playful human–machine game. The system uses a motorized launcher to continuously shoot ping pong balls toward a player, who responds with a racket. The launcher is ment to create pop- out scare os that the player is caught off guard and therefore it becomes a engaging and intresting experience.
 
-The experience is fun and engaging because it blends control and unpredictability — users must constantly react to changing ball speeds and angles. It becomes competitive as players try to sustain longer rallies or handle increasing difficulty levels. The project combines mechanical systems (motors, launcher mechanism), electronics (ESP32, sensors, LEDs), and interaction design to create a satisfying, physical, and playful experience as an interactive game`
+The experience is fun and engaging because it blends control and unpredictability 
 
 ---
 
