@@ -546,7 +546,9 @@ Examples:
 - Why bearing instead of a plain shaft hole?
 
 **Response:**  
-`[Write here]`
+`[Materials were chosen based on ease of fabrication and availability. Cardboard and simple structural materials allowed quick iteration and modification during testing. For final version we used Laser cut MDF and Acrylic sheet for better finish. 
+
+DC motor was chosen for the rotating the wheels as it required higher power for speed, whereas The servo motor was chosen over a DC motor for precise control of movement. The OLED display was selected for compact and clear feedback, while the buzzer provided simple auditory cues without complex setup.]`
 
 ## 12.3 Items to Purchase Separately
 
@@ -587,13 +589,17 @@ Include:
 - how documentation will be maintained.
 
 **Response:**  
-`[Write here]`
+`[Tasks were divided based on strengths, Pramiti focusing more on coding and electronics, and Siya focusing more on mechanical build and connections. However, both members contributed to ideation, testing, and decision-making.
+
+Progress was reviewed at the end of each working session, and issues were discussed together before deciding on changes. If a task was delayed, responsibilities were adjusted to ensure progress continued.
+
+Documentation was updated regularly alongside the build process.]`
 
 ## 13.2 Task Breakdown
 
 | Task ID | Task | Owner | Estimated Hours | Deadline | Dependency | Status |
 |---|---|---|---:|---|---|---|
-| T1 | `[Finalize concept]` | `[Name]` | `2` | `[Date]` | `None` | `To Do` |
+| T1 | `[Finalize concept]` | `[Pramiti and Siya]` | `2` | `[Date]` | `None` | `To Do` |
 | T2 | `[Complete BOM]` | `[Name]` | `1` | `[Date]` | `T1` | `To Do` |
 | T3 | `[Test electronics]` | `[Name]` | `2` | `[Date]` | `T1` | `To Do` |
 | T4 | `[Build structure]` | `[Name]` | `4` | `[Date]` | `T1` | `To Do` |
@@ -606,13 +612,13 @@ Include:
 
 | Area | Main Owner | Support Owner |
 |---|---|---|
-| Concept and gameplay | `[Name]` | `[Name]` |
-| Electronics | `[Name]` | `[Name]` |
-| Coding | `[Name]` | `[Name]` |
+| Concept and gameplay | `[Pramiti and SIya]` | `[Pramiti and SIya]` |
+| Electronics | `[Siya]` | `[Pramiti]` |
+| Coding | `[Pramiti]` | `[Siya]` |
 | App | `[Name]` | `[Name]` |
-| Mechanical build | `[Name]` | `[Name]` |
-| Testing | `[Name]` | `[Name]` |
-| Documentation | `[Name]` | `[Name]` |
+| Mechanical build | `[Siya]` | `[Pramiti]` |
+| Testing | `[Pramiti]` | `[Siya]` |
+| Documentation | `[Pramiti]` | `[Siya]` |
 
 ---
 
@@ -622,7 +628,7 @@ Include:
 
 ### Week 1 — Plan and De-risk
 Expected outcomes:
-- [ ] Idea finalized
+- [] Idea finalized
 - [ ] Core interaction decided
 - [ ] Sketches made
 - [ ] BOM completed
