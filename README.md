@@ -441,7 +441,7 @@ Suggested sequence:
 - error handling.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[(https://github.com/pramiti07/ODT-2026-Siya_Pramiti/blob/f4df1efb069b93a8996de403667caabed45ad80e/images/flowchart.png)]`
 
 ## 10.4 Pseudocode
 
