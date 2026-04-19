@@ -107,13 +107,13 @@ Answer the following:
 
 **Response:**  
 `What is the experience?
-The project creates a playful, physical game where a user plays ping pong against a machine that continuously launches balls. It feels like a hybrid between a game and a training partner, where the user actively responds to rapidly incoming balls. The experience is immediate and intuitive — you step in, pick up a racket, and start playing.
+The project creates a fast-paced, physical game where a user plays table tennis against a machine that launches balls in a timed sequence. It feels like a mix between a game and a training partner, where the user must constantly react and adapt. The interaction is immediate — the user steps in, picks up a racket, and starts responding to incoming shots.
 
 What do you want the player or participant to feel?
-I want the user to feel a mix of excitement, challenge, and slight unpredictability. It should feel engaging, slightly chaotic at higher speeds, and satisfying when the user successfully keeps a rally going.
+The user should feel excitement, urgency, and a sense of challenge. The countdown builds anticipation, and the sudden launch of balls creates moments of surprise. At higher speeds, the experience becomes slightly chaotic, pushing the player to react quickly and stay focused. Successfully returning shots feels satisfying and rewarding.
 
 Why would someone want to try it again?
-Because the experience changes based on how the user interacts with it — they can try different speeds, angles, and modes, making each round slightly different. The challenge of improving their shots and reaction time or sustaining longer rallies encourages repeat attempts, while the playful nature of competing with a machine makes it fun to come back and try again.`
+The experience encourages repetition because it is skill-based and dynamic. Players can try to improve their reaction time, maintain longer rallies, or challenge themselves at different speeds. The combination of rhythm, unpredictability, and physical engagement makes each attempt feel slightly different, motivating users to play again.`
 
 ## 2.3 Design Persona
 Complete the sentence below:
@@ -121,7 +121,7 @@ Complete the sentence below:
 > We are designing this project as if we are a small creative studio making a **[toy / game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]**.
 
 **Response:**  
-`[ We are designing this project as if we are a small creative studio making a **[game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]`
+`[ We are designing this project as if we are a small creative studio making a **[fast-paced interactive game]** for **[classmates and exhibition visitors]`
 
 ---
 
@@ -140,9 +140,11 @@ List what inspired the project.
 What makes your project original?
 
 **Response:**  
-`[What makes this project different is that it treats a simple ping pong launcher as an interactive experience rather than just a machine. The focus is not on building a perfect or accurate robot, but on creating a situation where a person actively engages with it — reacting, adjusting, and trying to keep up.
+`[What makes this project original is the shift from building a functional machine to designing an interactive experience. Instead of focusing on precision or automation, the project emphasizes human reaction, timing, and engagement.
 
-The machine continuously fires balls, so the experience feels fast, slightly unpredictable, and physically engaging. It becomes less about control and more about reaction, rhythm, and endurance. This makes it feel more like playing against something alive rather than using a device, which encourages people to try again and improve.]`
+The addition of a countdown system using an OLED display and buzzer introduces rhythm and anticipation, transforming the launcher from a continuous device into a structured game. This creates moments of tension followed by sudden action, making the experience feel dynamic and slightly unpredictable.
+
+Rather than acting as a tool, the machine behaves more like an opponent, encouraging users to react, adapt, and improve. This shift in focus—from control to interaction—defines the uniqueness of the project.]`
 
 ---
 
