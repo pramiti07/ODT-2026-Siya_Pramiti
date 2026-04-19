@@ -58,15 +58,15 @@ By the final review, this README should clearly show:
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `[Pramiti Goel]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
-| `[Siya Ghorpade]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `[Pramiti Goel]` | `[Electronics & Coding]` | `[Fabrication]` | `[Worked on coding and electronics, concept mechanism, physical build]` |
+| `[Siya Ghorpade]` | `[ Mechanics & Connections]` | `[Fabrication]` | `[Worked on the circuit setup and connections, concept mechanism, physical build]` |
 
 ## 1.3 Project Title
-`[TT Ball Launcher]`
+`[Smash or Panic: TT Ball Launcher]`
 
 ## 1.4 One-Line Pitch
-`[ Smash or pass-
- A Arduino-powered rhythmic table tennis ball launcher designed as to shoot table tennis balls.]`
+`[ Smash or panic-
+ An Arduino-powered rhythmic table tennis launcher that turns ball shooting into a fast-paced reaction game.]`
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
@@ -76,9 +76,11 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`This project is an interactive ping pong launcher designed as a playful human–machine game. The system uses a motorized launcher to continuously shoot ping pong balls toward a player, who responds with a racket. The launcher is ment to create pop- out scare os that the player is caught off guard and therefore it becomes a engaging and intresting experience.
+`This project is an interactive table tennis ball launcher designed as a playful human–machine experience. The system uses a motorized mechanism to shoot ping pong balls toward a player, who must react using a racket. Instead of continuous random firing, the launcher is paired with a programmed countdown system using an OLED display and buzzer, creating a structured and timed gameplay experience.
 
-The experience is fun and engaging because it blends control and unpredictability 
+The experience is engaging because it combines anticipation and reaction. The countdown builds tension, and the sudden launch creates moments of surprise, making the interaction feel both controlled and unpredictable. This balance keeps the player alert and encourages repeated play.
+
+The project integrates mechanical design and embedded systems. It uses an ESP32 microcontroller to control timing, an OLED screen for visual feedback, a buzzer for auditory cues, and a servo-based mechanism for ball release. Together, these elements transform a simple launcher into an interactive, game-like system.'
 
 ---
 
