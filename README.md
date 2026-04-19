@@ -386,7 +386,7 @@ All components share a common ground, and power is supplied through a USB connec
 Insert a hand-drawn or software-made circuit diagram.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[[(https://github.com/pramiti07/ODT-2026-Siya_Pramiti/blob/74b01e766d523556132741915d1bd843cf8e4067/images/CircuitDiagram.jpg)]`
 
 ## 9.4 Power Plan
 
