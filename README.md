@@ -366,15 +366,22 @@ The system evolved from a continuous launcher to a more timed and structured int
 
 | Component | Quantity | Purpose |
 |---|---:|---|
-| `[ESP32]` | `1` | `[Main controller]` |
-| `[Component]` | `[Qty]` | `[Purpose]` |
-| `[Component]` | `[Qty]` | `[Purpose]` |
+| `[ESP32]` | `1` | `[Main controller for timing and logic]` |
+| `[OLED Display (SSD1306)]` | `1 `| `[Displays countdown (3, 2, 1, GO) ]`|
+| `[Buzzer]` |`1` | `[Provides audio cues for countdown ]`|
+| `[Servo Motor ]`| `1 `|`[ Controls ball release mechanism]` |
+| `[Jumper Wires]` | `Multiple` |`[ Electrical connections]` |
+| `[Power Supply (USB) ]`| `1 `| `[Powers the system]` |
+| `[DC Motor ]`| `3 `|`[ Controls ball release mechanism]` |
 
 ## 9.2 Wiring Plan
 Describe the main electrical connections.
 
 **Response:**  
-`[Write here]`
+`[The ESP32 acts as the central controller. The OLED display is connected using I2C communication (SDA to GPIO 21 and SCL to GPIO 22). The buzzer is connected to a digital output pin (GPIO 25) and is used to provide sound feedback.
+
+The servo motor is connected to a PWM-capable pin (GPIO 12) and powered separately to ensure stable operation. 
+All components share a common ground, and power is supplied through a USB connection to the ESP32.]`
 
 ## 9.3 Circuit Diagram
 Insert a hand-drawn or software-made circuit diagram.
@@ -386,10 +393,10 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Question | Response |
 |---|---|
-| Power source | `[USB / battery / adapter / other]` |
-| Voltage required | `[Write here]` |
-| Current concerns | `[Write here]` |
-| Safety concerns | `[Write here]` |
+| Power source | `[adapter and esp32]` |
+| Voltage required | `[3.3V (logic), 5V (servo). 12V Dc Motors]` |
+| Current concerns | `[Servo requires higher current during movement; unstable supply can cause jitter]` |
+| Safety concerns | `[Avoid overvoltage to components; ensure proper grounding to prevent erratic behavior ]` |
 
 ---
 
@@ -399,8 +406,8 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Tool / Platform | Purpose |
 |---|---|
-| `[MicroPython / Arduino / MIT App Inventor / CAD tool / other]` | `[Purpose]` |
-| `[Tool]` | `[Purpose]` |
+| `[MicroPython (Thonny )]` | `[Writing and uploading code to ESP32]` |
+| `[SSD1306 Library]` | `[Controlling OLED display]` |
 
 ## 10.2 Software Logic
 Describe what the code must do.
@@ -415,7 +422,11 @@ Include:
 - reset behavior.
 
 **Response:**  
-`[Write here]`
+`[The system starts by initializing all components, including the OLED display, buzzer, and servo motor. When powered, the system sets the servo to its default position.
+
+Once triggered, the system displays a countdown (3, 2, 1, GO) on the OLED screen, accompanied by buzzer sounds to create anticipation. After the countdown, the servo activates to release the ball.
+
+The system follows a timed sequence where outputs are triggered in order: display updates, buzzer signals, and servo movement. After completing the sequence, the system stops and can be reset for the next round.]`
 
 ## 10.3 Code Flowchart
 Insert a flowchart showing your code logic.
@@ -436,7 +447,33 @@ Suggested sequence:
 ## 10.4 Pseudocode
 
 ```text
-[Write your pseudocode here]
+[START
+Initialize OLED, buzzer, servo
+
+Set servo to rest position
+
+Display "3"
+Beep
+Wait
+
+Display "2"
+Beep
+Wait
+
+Display "1"
+Beep
+Wait
+
+Display "GO"
+Beep twice
+Wait
+
+Move servo to release position
+Wait 5 seconds
+
+Return servo to rest position
+
+END]
 ```
 
 ---
@@ -445,7 +482,7 @@ Suggested sequence:
 
 ## 11.1 Is an app part of this project?
 - [ ] Yes
-- [ ] No
+- [x] No
 
 If yes, complete this section.
 
@@ -492,9 +529,12 @@ Insert a sketch or screenshot of the app interface.
 
 | Item | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec | Why This Choice? |
 |---|---:|---|---|---:|---|---|
-| `[ESP32]` | `1` | `Yes` | `No` | `0` | `[Spec]` | `[Reason]` |
-| `[Item]` | `[Qty]` | `[Yes/No]` | `[Yes/No]` | `[Cost]` | `[Spec]` | `[Reason]` |
-| `[Item]` | `[Qty]` | `[Yes/No]` | `[Yes/No]` | `[Cost]` | `[Spec]` | `[Reason]` |
+| `[ESP32]` | `1` | `Yes` | `No` | `0` | `[Microcontroller]` | `[Easy to program and supports multiple outputs ]` |
+| `[OLED Display]` | `[1]` | `[No]` | `[Yes]` | `[150]` | `[SSD1306]` | `[Compact visual feedback]` |
+| `[Servo Motor]` | `[1]` | `[Yes]` | `[No]` | `[0]` | `[SG90]` | `[Simple control for movement]` |
+| `[Buzzer]` | `[1]` | `[Yes]` | `[No]` | `[0]` | `[Active buzzer]` | `[Simple sound output]` |
+| `[DC Motor]` | `[3]` | `[Yes]` | `[No]` | `[0]` | `[12V]` | `[ control for movement]` |
+
 
 ## 12.2 Material Justification
 Explain why you selected your main materials and components.
