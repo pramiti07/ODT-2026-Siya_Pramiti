@@ -197,25 +197,25 @@ If your project is a game, list the rules clearly.
 ## 5.1 Definition of “Playable”
 Your project will be considered complete only if these conditions are met.
 
-- [ ] `[the machine shoots all the balls kept in the machine]`
-- [ ] `[the maching shoots the ball at a human opponent in a fixed time interval]`
-- [ ] `[the machine rotates so as to break the monotamy of the shooting patern]`
-- [ ] `[it changes the angle of shooting, therefore changing teh hight at which the ball is recived]`
-- [ ] `[it statrs afyer the start button is pressed + time delay]`
+- [ ] `[The machine successfully launches all balls loaded into it  ]`
+- [ ] `[Balls are launched toward the player consistently  ]`
+- [ ] `[The system runs with a timed countdown before starting  ]`
+- [ ] `[The launcher operates at high speed with short time interval between shots]`
 
 ## 5.2 Minimum Viable Version
 What is the smallest version of this project that still delivers the core experience?
 
 **Response:**  
-`[Write here]`
+`[The minimum viable version is a working ball launcher that shoots balls at intervals after a countdown. The system should allow a player to react and engage with the incoming shots.]`
 
 ## 5.3 Stretch Features
 What features are nice to have but not essential?
 
-- `[movement of the whole machine on the table side by side]`
-- `[speed difference]`
-- `[]`
-
+- `[Adjustable speed of ball launching ]`
+- `[Variation in launch angle ] `
+- `[Side-to-side movement of the launcher  ]`
+- `[Different game modes (easy / medium / fast)  ]`
+- `[Score display on OLED screen  ]`
 ---
 
 # 6. System Overview
@@ -223,18 +223,19 @@ What features are nice to have but not essential?
 ## 6.1 Project Type
 Check all that apply.
 
-- [ ] Electronics-based
-- [ ] Mechanical
-- [ ] Sensor-based
-- [ ] App-connected
-- [ ] Motorized
-- [ ] Sound-based
-- [ ] Light-based
-- [ ] Screen/UI-based
-- [ ] Fabricated structure
-- [ ] Game logic based
-- [ ] Installation / tabletop experience
+- [yes] Electronics-based
+- [yes] Mechanical
+- [yes] Sensor-based
+- [no] App-connected
+- [yes] Motorized
+- [yes] Sound-based
+- [no] Light-based
+- [yes] Screen/UI-based
+- [no] Fabricated structure
+- [yes] Game logic based
+- [no] Installation / tabletop experience
 - [ ] Other: `[Write here]`
+
 
 ## 6.2 High-Level System Description
 Explain how the system works in simple terms.
@@ -247,16 +248,22 @@ Include:
 - app interaction if any.
 
 **Response:**  
-`[Write here]`
+`[The system is an interactive ball launching setup controlled by an ESP32 microcontroller. The user loads ping pong balls into the machine, the system then begins with a countdown displayed on an OLED screen, supported by buzzer sounds to create anticipation.
+
+After the countdown, the launcher activates and releases balls at fixed time intervals toward the player. The player interacts physically using a racket, responding to each incoming ball. The system operates independently once triggered, completing a full round based on the number of balls loaded.
+
+The setup consists of a mechanical launcher structure, an ESP32 for control, a servo/motor mechanism for ball release, an OLED display for visual feedback, and a buzzer for sound cues. Together, these elements create a structured, timed interaction between the user and the machine.]`
 
 ## 6.3 Input / Output Map
 
 | System Part | Type | What It Does |
 |---|---|---|
-| `[Button / Sensor / Switch / App Input]` | Input | `[Describe]` |
-| `[ESP32 / Controller]` | Processing | `[Describe]` |
-| `[LED / Motor / Servo / Buzzer / Display]` | Output | `[Describe]` |
-| `[Mechanical Assembly]` | Physical Action | `[Describe]` |
+| Push Button | Input | Starts the game sequence |
+| ESP32 | Processing | Controls timing, countdown, and actuation logic |
+| OLED Display | Output | Shows countdown (3, 2, 1, GO) |
+| Buzzer | Output | Provides audio cues for countdown and start |
+| Servo / Motor | Output | Controls the release or launching of balls |
+| Mechanical Launcher | Physical Action | Moves and shoots balls toward the player |
 
 ---
 
@@ -266,7 +273,7 @@ Include:
 Add an early sketch of the full idea.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[https://github.com/pramiti07/ODT-2026-Siya_Pramiti/blob/e4703b0f2677695b200d00a381e08191467a8505/images/Concept_Sketch.jpg]`
 
 Example:
 ```md
@@ -288,36 +295,37 @@ Add a sketch with labels showing:
 
 | Dimension | Value |
 |---|---|
-| Length | `[Write here]` |
-| Width | `[Write here]` |
-| Height | `[Write here]` |
-| Estimated weight | `[Write here]` |
+| Length | `[~20 cm]` |
+| Width | `[~20 cm]` |
+| Height | `[~25 cm]` |
+| Estimated weight | `[~1–1.5 kg]` |
 
 ---
-
 # 8. Mechanical Planning
 
 ## 8.1 Mechanical Features
 Check all that apply.
 
-- [ ] Gears
-- [ ] Pulleys
-- [ ] Belt drives
-- [ ] Linkages
-- [ ] Hinges
-- [ ] Shafts
-- [ ] Springs
-- [ ] Bearings
-- [ ] Wheels
-- [ ] Sliders
-- [ ] Levers
+- [yes] Gears
+- [no] Pulleys
+- [no] Belt drives
+- [no] Linkages
+- [no] Hinges
+- [yes] Shafts
+- [no] Springs
+- [no] Bearings
+- [yes] Wheels
+- [no] Sliders
+- [no] Levers
 - [ ] Not applicable
 
 ## 8.2 Mechanical Description
 Describe the mechanism and what it is meant to do.
 
 **Response:**  
-`[Write here]`
+`[The mechanical system consists of a rotating launcher mechanism that feeds and shoots ping pong balls. Balls are stored in a chamber and guided toward the launching section through rotation. The motion is driven by a motor, which enables continuous feeding and shooting of balls.
+
+The structure is designed to hold multiple balls and release them one at a time, creating a steady flow of shots toward the player.]`
 
 ## 8.3 Motion Planning
 If something moves, explain:
@@ -328,7 +336,11 @@ If something moves, explain:
 - what could go wrong.
 
 **Response:**  
-`[Write here]`
+`[The main motion in the system is the rotation of the launcher mechanism, which feeds balls into the shooting path. This motion is driven by a DC motor.
+
+The servo controls a small movement that helps regulate ball release timing. The system is designed to move quickly enough to maintain a rhythm, but not too fast to overwhelm the player.
+
+Potential issues include balls getting stuck, inconsistent feeding, or variation in launch direction due to alignment problems.]`
 
 ## 8.4 Simulation / CAD / Animation Before Making
 If your project includes mechanical motion, document the digital planning before fabrication.
@@ -342,7 +354,9 @@ If your project includes mechanical motion, document the digital planning before
 What changed after the CAD, animation, or simulation stage?
 
 **Response:**  
-`[Write here]`
+`[the mechanism was developed through physical prototyping and iterative testing rather than digital simulation. During testing, adjustments were made to improve ball flow and consistency. The spacing and alignment of the mechanism were modified to prevent jamming. The timing of ball release was also refined to create a more playable experience.
+
+The system evolved from a continuous launcher to a more timed and structured interaction with the addition of the countdown system.]`
 
 ---
 
