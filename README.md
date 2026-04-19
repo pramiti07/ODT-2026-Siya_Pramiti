@@ -158,38 +158,38 @@ Examples:
 - move object → sensor detects → sound/light response → player reacts
 
 **Response:**  
-`press-> launch -> react -> repeat`
+`press start → countdown (OLED + buzzer) → launch ball → player reacts → repeat until balls finish`
 
 ## 4.2 Intended Player / Audience
 
 | Question | Response |
 |---|---|
-| Who is this for? | `table tennis enthusiast` |
-| Age range | `above 10years` |
-| Solo or multiplayer | `solo` |
+| Who is this for? | `Table tennis enthusiasts and casual players` |
+| Age range | `10+` |
+| Solo or multiplayer | `solo(with optional score comparison between players)` |
 | Expected duration of one round | `30 sec` |
-| What should the player feel? | `engaging and excited` |
-| Is explanation required before use? | `yes` |
+| What should the player feel? | `Engaged, alert, and challenged` |
+| Is explanation required before use? | `Minimal (basic instructions for gameplay)` |
 
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
 
-1. **Approach:** `addint of a fixed number off balls in the machine  `
-2. **Start:** `press start`
-3. **First Action:** `stand at a specific distance from the machine`
-4. **Main Interaction:** `tackeling of the ball`
-5. **System Response:** `irrespective of wher ethe ball goes the machine shoots another in the delay of 2 sec.`
-6. **Win / Lose / End Condition:** `every person have a certain amount of points`
-7. **Reset:** `re-stalking of the tennis balls in the machine and pressing start`
+1. **Approach:** `The player approaches the setup and loads a fixed number of balls into the machine.    `
+2. **Start:** `The player presses the start button.`
+3. **First Action:** `A countdown (3, 2, 1, GO) is displayed using the OLED screen with buzzer cues.  `
+4. **Main Interaction:** `The machine launches balls at timed intervals, and the player responds using a racket.`
+5. **System Response:** `The launcher continues to shoot balls at a fixed delay, independent of whether the player successfully returns them.  `
+6. **Win / Lose / End Condition:** `The round ends after all balls are launched. Points are counted based on successful returns.  `
+7. **Reset:** `Balls are collected, reloaded into the machine, and the system is ready for the next player. `
 
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
-- `every person gets to play a fixed amount of serves`
-- `the ball should bounce on their and the oponents side one after the other`
-- `unable to follow the above rule there is no point giben, i.e, 0, ortherwise +1`
-- `whoever has the maximum points inthe team wins`
-
+- `Each player gets a fixed number of serves (balls). `
+- `A valid return must bounce on both sides of the table.  `
+- `If the player fails to return the ball correctly, no point is awarded.  `
+- `Each successful return earns +1 point. `
+- `The player with the highest score wins (in case of multiple players).   `
 ---
 
 # 5. Definition of Success
