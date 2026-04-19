@@ -132,9 +132,8 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Video]` | `[(https://youtu.be/tKqPbJfTlDg?si=A5O6gLvXLh6896KT)]` | `[Showed how a machine can continuously launch balls and create a rally-like experience similar to playing with a real opponent.]` |
 | `[Website]` | `[(https://www.pcbway.com/project/shareproject/Ping_Pong_Robot_V1_DIY_0c6b7731.html)]` | `[Helped understand how ping pong launchers are built using motors and how angle affects the ball direction.]` |
-| `[Website]` | `[Link or title](https://www.instructables.com/Ping-Pong-Ball-Launcher-2/)]` | `[Gave a simple idea of how to build a ball launcher using basic materials and components.]` |
+| `[Website]` | `[(https://www.instructables.com/Ping-Pong-Ball-Launcher-2/)]` | `[Gave a simple idea of how to build a ball launcher using basic materials and components.]` |
 
 ## 3.2 Original Twist
 What makes your project original?
@@ -396,7 +395,7 @@ Insert a hand-drawn or software-made circuit diagram.
 | Power source | `[adapter and esp32]` |
 | Voltage required | `[3.3V (logic), 5V (servo). 12V Dc Motors]` |
 | Current concerns | `[Servo requires higher current during movement; unstable supply can cause jitter]` |
-| Safety concerns | `[Avoid overvoltage to components; ensure proper grounding to prevent erratic behavior ]` |
+| Safety concerns | `[Avoid overvoltage to components and ensure proper grounding to prevent erratic behavior ]` |
 
 ---
 
@@ -599,14 +598,14 @@ Documentation was updated regularly alongside the build process.]`
 
 | Task ID | Task | Owner | Estimated Hours | Deadline | Dependency | Status |
 |---|---|---|---:|---|---|---|
-| T1 | `[Finalize concept]` | `[Pramiti and Siya]` | `2` | `[Date]` | `None` | `To Do` |
-| T2 | `[Complete BOM]` | `[Name]` | `1` | `[Date]` | `T1` | `To Do` |
-| T3 | `[Test electronics]` | `[Name]` | `2` | `[Date]` | `T1` | `To Do` |
-| T4 | `[Build structure]` | `[Name]` | `4` | `[Date]` | `T1` | `To Do` |
-| T5 | `[Write control code]` | `[Name]` | `4` | `[Date]` | `T3` | `To Do` |
-| T6 | `[Integrate system]` | `[Name]` | `4` | `[Date]` | `T4, T5` | `To Do` |
-| T7 | `[Playtest]` | `[Name]` | `2` | `[Date]` | `T6` | `To Do` |
-| T8 | `[Refine and document]` | `[Name]` | `3` | `[Date]` | `T7` | `To Do` |
+| T1 | `[Finalize concept]` | `[Pramiti and Siya]` | `2` | `[4th April]` | `None` | `To Do` |
+| T2 | `[Complete BOM]` | `[Pramiti and Siya]` | `1` | `[8th April]` | `T1` | `To Do` |
+| T3 | `[Test electronics]` | `[Siya]` | `2` | `[10th April]` | `T1` | `To Do` |
+| T4 | `[Build structure]` | `[Pramiti]` | `4` | `[17th April]` | `T1` | `To Do` |
+| T5 | `[Write control code]` | `[Pramiti]` | `4` | `[15th April]` | `T3` | `To Do` |
+| T6 | `[Integrate system]` | `[Siya]` | `4` | `[16th April]` | `T4, T5` | `To Do` |
+| T7 | `[Playtest]` | `[Siya]` | `2` | `[16th April]` | `T6` | `To Do` |
+| T8 | `[Refine and document]` | `[Pramiti]` | `3` | `[19th April]` | `T7` | `To Do` |
 
 ## 13.3 Responsibility Split
 
@@ -628,7 +627,7 @@ Documentation was updated regularly alongside the build process.]`
 
 ### Week 1 — Plan and De-risk
 Expected outcomes:
-- [] Idea finalized
+- [ ] Idea finalized
 - [ ] Core interaction decided
 - [ ] Sketches made
 - [ ] BOM completed
@@ -664,10 +663,10 @@ Expected outcomes:
 
 | Week | Planned Goal | What Actually Happened | What Changed | Next Steps |
 |---|---|---|---|---|
-| Week 1 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 2 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 3 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 4 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
+| Week 1 | Finalize idea, sketches, and concept | Explored multiple ideas like interactive wall, Kaliedoscope, robot car before finalizing the ping pong launcher. Created initial sketches and discussed gameplay and interaction. | Shifted from abstract interactive ideas to a more buildable mechanical + electronics system. | Begin prototyping using simple materials. |
+| Week 2 | Build initial mechanism and test electronics | Built an early prototype using cardboard to test the ball feeding and launching concept. Tested basic electronics (servo, buzzer, OLED). Faced issues with power supply and unstable servo behavior. | Decided to first validate the mechanical concept before refining electronics. Simplified interaction logic. | Improve mechanism and fix power stability issues. |
+| Week 3 | Integrate system (mechanics + electronics + code) | Transitioned from cardboard prototype to more stable materials. Used the material lab to fabricate parts using laser-cut MDF and acrylic. Integrated OLED, buzzer, and servo into the system. | Improved structural stability and reduced jamming. Introduced countdown system to enhance interaction. | Test full system and refine timing + ball flow. |
+| Week 4 | Refine system, test gameplay, complete documentation | Final system assembled using MDF and acrylic components. Spent most time in the material lab refining the build. Conducted testing and small adjustments for smoother operation. Completed documentation. | Focus shifted from adding features to improving reliability and user experience. | Final testing and preparation for demo. |
 
 ---
 
@@ -677,16 +676,17 @@ Expected outcomes:
 
 | Risk | Type | Likelihood | Impact | Mitigation Plan | Owner |
 |---|---|---|---|---|---|
-| `[Example: Bluetooth disconnects]` | `Technical` | `Medium` | `High` | `[Fallback interaction / simplify connection flow]` | `[Name]` |
-| `[Example: Structure breaks during play]` | `Mechanical` | `Medium` | `High` | `[Reinforce joints / change material]` | `[Name]` |
-| `[Risk]` | `[Technical / Material / Time / Gameplay]` | `[Low/Medium/High]` | `[Low/Medium/High]` | `[Plan]` | `[Name]` |
-| `[Risk]` | `[Type]` | `[Low/Medium/High]` | `[Low/Medium/High]` | `[Plan]` | `[Name]` |
+| Balls getting jammed in mechanism | Mechanical | High | High | Adjust spacing, refine alignment, test multiple iterations | Siya |
+| Servo not behaving consistently | Technical | Medium | High | Stabilize power supply, test angles, reduce load | Pramiti |
+| Power supply instability | Technical | Medium | High | Use proper 5V supply and common grounding | Pramiti |
+| Structure breaking during play | Mechanical | Medium | Medium | Shift from cardboard to MDF and acrylic | Siya |
+
 
 ## 15.2 Biggest Unknown Right Now
 What is the single biggest uncertainty in your project at this stage?
 
 **Response:**  
-`[Write here]`
+`[The biggest uncertainty was achieving consistent and reliable ball launching without jamming or irregular motion. Ensuring smooth mechanical flow was a key challenge.]`
 
 ---
 
@@ -696,34 +696,39 @@ What is the single biggest uncertainty in your project at this stage?
 
 | What Needs Testing | How You Will Test It | Success Condition |
 |---|---|---|
-| `[Bluetooth connection]` | `[Method]` | `[What counts as success?]` |
-| `[Mechanism movement]` | `[Method]` | `[What counts as success?]` |
-| `[Sensor behavior]` | `[Method]` | `[What counts as success?]` |
-| `[App communication]` | `[Method]` | `[What counts as success?]` |
+| Servo movement | Run repeated cycles | Moves smoothly without jitter |
+| OLED display | Run countdown code | Text displays clearly every time |
+| Buzzer | Trigger beep during countdown | Sound is audible and synced |
+| Ball launching | Test with multiple balls | Balls launch consistently without jamming |
+
 
 ## 16.2 Playtesting Plan
 
 | Question | How You Will Check |
 |---|---|
-| Do players understand what to do? | `[Method]` |
-| Is the interaction satisfying? | `[Method]` |
-| Do players want another turn? | `[Method]` |
-| Is the challenge balanced? | `[Method]` |
-| Is the response clear and immediate? | `[Method]` |
+| Do players understand what to do? | Observe if they can start and play without instructions |
+| Is the interaction satisfying? | Ask for feedback after one round |
+| Do players want another turn? | Check if they voluntarily replay |
+| Is the challenge balanced? | Observe if it feels too easy or too hard |
+| Is the response clear and immediate? | Observe timing between countdown and launch |
+
 
 ## 16.3 Testing and Debugging Log
 
 | Date | Problem Found | Type | What You Tried | Result | Next Action |
 |---|---|---|---|---|---|
-| `[Date]` | `[Describe issue]` | `[Technical / Mechanical / UI / Gameplay]` | `[What you did]` | `[Worked / Partly / Failed]` | `[Next step]` |
-| `[Date]` | `[Describe issue]` | `[Type]` | `[What you did]` | `[Result]` | `[Next step]` |
+| Week 2 | Servo twitching and not moving | Technical | Changed power supply and wiring | Worked | Stabilize connections |
+| Week 2 | OLED not displaying anything | Technical | Rechecked wiring, changed library | Worked | Integrate into main code |
+| Week 3 | Balls getting stuck | Mechanical | Adjusted spacing and alignment | Partly worked | Refine structure |
+| Week 3 | Inconsistent launching | Mechanical | Modified angle and positioning | Worked | Final testing |
+
 
 ## 16.4 Playtesting Notes
 
 | Tester | What They Did | What Confused Them | What They Enjoyed | What You Will Change |
 |---|---|---|---|---|
-| `[Peer / friend / classmate]` | `[Observation]` | `[Observation]` | `[Observation]` | `[Action]` |
-| `[Peer / friend / classmate]` | `[Observation]` | `[Observation]` | `[Observation]` | `[Action]` |
+| Classmate 1 | Played one full round | Didn’t understand start immediately | Found it fun and fast-paced | Add clearer start cue |
+| Classmate 2 | Tried multiple rounds | Timing felt slightly unpredictable | Enjoyed challenge and reaction | Improve consistency |
 
 ---
 
@@ -742,7 +747,13 @@ Include:
 - revisions.
 
 **Response:**  
-`[Write here]`
+`[The project began with a quick cardboard prototype to test the ball feeding and launching concept. This helped us understand spacing, movement, and flow without investing time in final materials.
+
+After validating the idea, we used the material lab to fabricate the final structure using laser-cut MDF and acrylic. These materials provided better strength, stability, and precision.
+
+The build involved iterative testing, where parts were adjusted to reduce jamming and improve consistency. Electronics were integrated alongside the structure, and wiring was refined for stability.
+
+Most of the time was spent in the material lab focusing on fabrication, assembly, and improving reliability.]`
 
 ## 17.2 Build Photos
 Add photos throughout the project.
@@ -766,10 +777,9 @@ Example:
 
 | Version | Date | What Changed | Why |
 |---|---|---|---|
-| `v1` | `[Date]` | `[Describe]` | `[Reason]` |
-| `v2` | `[Date]` | `[Describe]` | `[Reason]` |
-| `v3` | `[Date]` | `[Describe]` | `[Reason]` |
-
+| v1 | Week 2 | Cardboard prototype built | Test basic concept quickly |
+| v2 | Week 3 | MDF + acrylic structure | Improve strength and reliability |
+| v3 | Week 4 | Integrated electronics + countdown | Enhance interaction |
 ---
 
 # 18. Final Outcome
