@@ -66,7 +66,7 @@ By the final review, this README should clearly show:
 
 ## 1.4 One-Line Pitch
 `[ Smash or pass-
- A Arduino-powered rhythmic table tennis ball launcher designed as to shoot 6 table tennise balls .]`
+ A Arduino-powered rhythmic table tennis ball launcher designed as to shoot table tennis balls.]`
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
@@ -154,7 +154,7 @@ Examples:
 - move object → sensor detects → sound/light response → player reacts
 
 **Response:**  
-`press- (launch- react)repeat`
+`press-> launch -> react -> repeat`
 
 ## 4.2 Intended Player / Audience
 
@@ -164,7 +164,7 @@ Examples:
 | Age range | `above 10years` |
 | Solo or multiplayer | `solo` |
 | Expected duration of one round | `30 sec` |
-| What should the player feel? | `engaging and rewarding` |
+| What should the player feel? | `engaging and excited` |
 | Is explanation required before use? | `yes` |
 
 ## 4.3 Player Journey
