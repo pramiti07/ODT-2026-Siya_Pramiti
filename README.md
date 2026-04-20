@@ -288,7 +288,7 @@ Add a sketch with labels showing:
 - output elements.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[https://github.com/pramiti07/ODT-2026-Siya_Pramiti/blob/8404ccd82d4602a309c61160d488bdebb3d90c3f/images/Labeled%20Build%20Sketch.jpg]`
 
 ## 7.3 Approximate Dimensions
 
