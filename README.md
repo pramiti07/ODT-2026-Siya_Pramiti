@@ -62,7 +62,7 @@ By the final review, this README should clearly show:
 | `[Siya Ghorpade]` | `[ Mechanics & Connections]` | `[Fabrication]` | `[Worked on the circuit setup and connections, concept mechanism, physical build]` |
 
 ## 1.3 Project Title
-`[Smash or Panic: TT Ball Launcher]`
+`[Smash or Pass: TT Ball Launcher]`
 
 ## 1.4 One-Line Pitch
 `[ Smash or panic-
@@ -107,7 +107,7 @@ Answer the following:
 
 **Response:**  
 `What is the experience?
-The project creates a fast-paced, physical game where a user plays table tennis against a machine that launches balls in a timed sequence. It feels like a mix between a game and a training partner, where the user must constantly react and adapt. The interaction is immediate — the user steps in, picks up a racket, and starts responding to incoming shots.
+The project creates a fast-paced, physical game where a user plays table tennis against a machine that launches balls in a timed sequence, where the user must constantly react and adapt. The interaction is immediate — the user steps in, picks up a racket, and starts responding to incoming shots.
 
 What do you want the player or participant to feel?
 The user should feel excitement, urgency, and a sense of challenge. The countdown builds anticipation, and the sudden launch of balls creates moments of surprise. At higher speeds, the experience becomes slightly chaotic, pushing the player to react quickly and stay focused. Successfully returning shots feels satisfying and rewarding.
@@ -790,23 +790,22 @@ Example:
 Describe the final version of your project.
 
 **Response:**  
-`[Write here]`
+`[Our game of smash or pass starts after a sound and visual indication of 3...2....1...Go on the screen and by the buzzer. as soon as it shows go on theh screen or 2 beeps go off the rotation of the motors starts and pushes balls one by one out of the machine with a force. The player just has to stand on the opposite side of the table tennis table so concentrate on the balls that shoot out of the machine an dnot miss any shots. The machine is to be turned off manually after all the balls are fired.]`
 
 ## 18.2 What Works Well
-- `[Point 1]`
-- `[Point 2]`
-- `[Point 3]`
+- `[the balls shoot one after the other contionously and not all together]`
+- `[the force of the tyre is just enough to make the ball bounce on the opponant side and for the player to play it ]`
+- `[the ball without any diversion goes to the tyres in front of the rotatory mechanism because of the intentionally created slope  ]`
 
 ## 18.3 What Still Needs Improvement
-- `[Point 1]`
-- `[Point 2]`
-- `[Point 3]`
+- `[the screen could have been bigger as it is not vissible from the far]`
+- `[variation of speed of the motor by changing the voltage given to the motor]`
 
 ## 18.4 What Changed From the Original Plan
 How did the project change from the initial idea?
 
 **Response:**  
-`[The initial idea was to create a trainer that will serve from one side what changed was, we decide to make it a interactive ]`
+`[The initial idea was to create a trainer that will serve from one side what changed was, we decide to make it a interactive i.e. a game. Our structure kept changing as we went through the phisical process of making, as we found ways to make it in a easier and in a convinent way.]`
 
 ---
 
@@ -831,7 +830,7 @@ What did you learn about:
 - integration?
 
 **Response:**  
-`[Write here]`
+`[the connections of the circuit have to be very strong and has to be cheacked countiounously if they are in the right loop or elelse this would cause damage to the circuit. paitiance is the key, nothing can be rushed]`
 
 ## 19.3 Design Reflection
 What did you learn about:
@@ -843,7 +842,7 @@ What did you learn about:
 - iteration?
 
 **Response:**  
-`[Designing this game showed me that play comes from giving players freedom within structure, where choices feel meaningful rather than forced. Delight emerged through small surprises and responsive feedback, making even mistakes enjoyable. I learned that clarity is crucial—players rely on quick, intuitive signifiers like speed and timing to make decisions.
+`[ Designing this game showed me that play comes from giving players freedom within structure, where choices feel meaningful rather than forced. Delight emerged through small surprises and responsive feedback, making even mistakes enjoyable. I learned that clarity is crucial—players rely on quick, intuitive signifiers like speed and timing to make decisions.
 
 The physical nature of the game highlighted how movement and reaction are part of the experience, not just thinking. Players understand the system through interaction and patterns, not instructions. 
 Throughout the process we realised how consistancy playes a role and sometimes all we need to do is start insted of thinking. action gives clarity to our thoughts.]`
@@ -852,7 +851,7 @@ Throughout the process we realised how consistancy playes a role and sometimes a
 What would you improve next?
 
 **Response:**  
-`[if we had more time we would have made a angle changing mechanism that adds to the unpridictablity and the mechanism becomes we would also want to incourporate a mechanism which would allow the balls to shoot one at a time rather than a continious series of one after the other]`
+`[If we had more time we would have made a angle changing mechanism that adds to the unpridictablity.]`
 
 ---
 
@@ -921,3 +920,4 @@ project-repo/
 
 ## 22.3 Final Review Notes
 `[Instructor fills this section]`
+
