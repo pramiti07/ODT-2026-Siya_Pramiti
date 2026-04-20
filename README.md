@@ -804,7 +804,7 @@ Describe the final version of your project.
 How did the project change from the initial idea?
 
 **Response:**  
-`[Write here]`
+`[The initial idea was to create a trainer that will serve from one side what changed was, we decide to make it a interactive ]`
 
 ---
 
@@ -816,7 +816,9 @@ What slowed you down?
 How well did you manage time, tasks, and responsibilities?
 
 **Response:**  
-`[Write here]`
+`[We were effective in our iteration process due to a strong balance within the team—one of us focused on practicality while the other contributed ambitious, forward-thinking ideas. This combination allowed us to develop concepts that were both innovative and feasible. As a result, we were able to continuously refine our approach and resolve challenges throughout the process.
+
+We worked consistently and maintained a clear vision, which helped us stay aligned and productive. The only point at which our progress slowed was during the material approval stage, which temporarily delayed execution.]`
 
 ## 19.2 Technical Reflection
 What did you learn about:
@@ -839,37 +841,40 @@ What did you learn about:
 - iteration?
 
 **Response:**  
-`[Write here]`
+`[Designing this game showed me that play comes from giving players freedom within structure, where choices feel meaningful rather than forced. Delight emerged through small surprises and responsive feedback, making even mistakes enjoyable. I learned that clarity is crucial—players rely on quick, intuitive signifiers like speed and timing to make decisions.
+
+The physical nature of the game highlighted how movement and reaction are part of the experience, not just thinking. Players understand the system through interaction and patterns, not instructions. 
+Throughout the process we realised how consistancy playes a role and sometimes all we need to do is start insted of thinking. action gives clarity to our thoughts.]`
 
 ## 19.4 If You Had One More Week
 What would you improve next?
 
 **Response:**  
-`[Write here]`
+`[if we had more time we would have made a angle changing mechanism that adds to the unpridictablity and the mechanism becomes we would also want to incourporate a mechanism which would allow the balls to shoot one at a time rather than a continious series of one after the other]`
 
 ---
 
 # 20. Final Submission Checklist
 
 Before submission, confirm that:
-- [ ] Team details are complete
-- [ ] Project description is complete
-- [ ] Inspiration sources are included
-- [ ] Player journey is written
-- [ ] Sketches are added
-- [ ] BOM is complete
-- [ ] Purchase list is complete
-- [ ] Budget summary is complete
-- [ ] Mechanical planning is documented if applicable
-- [ ] App planning is documented if applicable
-- [ ] Code flowchart is added
-- [ ] Task breakdown is complete
-- [ ] Weekly logs are updated
-- [ ] Risk register is complete
-- [ ] Testing log is updated
-- [ ] Playtesting notes are included
-- [ ] Build photos are included
-- [ ] Final reflection is written
+- [Yes] Team details are complete
+- [Yes] Project description is complete
+- [Yes] Inspiration sources are included
+- [Yes] Player journey is written
+- [Yes] Sketches are added
+- [Yes] BOM is complete
+- [Yes] Purchase list is complete
+- [Yes] Budget summary is complete
+- [Yes] Mechanical planning is documented if applicable
+- [Yes] App planning is documented if applicable
+- [Yes] Code flowchart is added
+- [Yes] Task breakdown is complete
+- [Yes] Weekly logs are updated
+- [Yes] Risk register is complete
+- [Yes] Testing log is updated
+- [Yes] Playtesting notes are included
+- [Yes] Build photos are included
+- [Yes] Final reflection is written
 
 ---
 
