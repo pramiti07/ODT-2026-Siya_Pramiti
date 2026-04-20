@@ -346,8 +346,8 @@ If your project includes mechanical motion, document the digital planning before
 
 | Tool Used | File / Link | What Was Tested |
 |---|---|---|
-| `[Fusion 360 / Tinkercad / other]` | `[Link or screenshot]` | `[What did you validate?]` |
-| `[Tool]` | `[Link or screenshot]` | `[What did you validate?]` |
+| `[Rhino/Illustrator]` | `[https://github.com/pramiti07/ODT-2026-Siya_Pramiti/blob/cb9184ac112fa12a54e61f11de2e3f12b367996c/cad/Lasercut_file.ai]` | `[Correct dimensions for the project]` |
+
 
 ## 8.5 Changes After Digital Testing
 What changed after the CAD, animation, or simulation stage?
@@ -529,11 +529,12 @@ Insert a sketch or screenshot of the app interface.
 | Item | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec | Why This Choice? |
 |---|---:|---|---|---:|---|---|
 | `[ESP32]` | `1` | `Yes` | `No` | `0` | `[Microcontroller]` | `[Easy to program and supports multiple outputs ]` |
-| `[OLED Display]` | `[1]` | `[No]` | `[Yes]` | `[150]` | `[SSD1306]` | `[Compact visual feedback]` |
+| `[OLED Display]` | `[1]` | `[No]` | `[Yes]` | `[200]` | `[SSD1306]` | `[Compact visual feedback]` |
 | `[Servo Motor]` | `[1]` | `[Yes]` | `[No]` | `[0]` | `[SG90]` | `[Simple control for movement]` |
 | `[Buzzer]` | `[1]` | `[Yes]` | `[No]` | `[0]` | `[Active buzzer]` | `[Simple sound output]` |
 | `[DC Motor]` | `[3]` | `[Yes]` | `[No]` | `[0]` | `[12V]` | `[ control for movement]` |
-
+| `[Ping pong Ball]` | `[6]` | `[no]` | `[yes]` | `[200]` | `[Plastic]` | `[To play the game]` |
+| `[Skewers]` | `[12]` | `[no]` | `[yes]` | `[200]` | `[wood]` | `[For outer structure]` |
 
 ## 12.2 Material Justification
 Explain why you selected your main materials and components.
@@ -553,25 +554,26 @@ DC motor was chosen for the rotating the wheels as it required higher power for 
 
 | Item | Why Needed | Purchase Link | Latest Safe Date to Procure | Status |
 |---|---|---|---|---|
-| `[Item]` | `[Reason]` | `[Link]` | `[Date]` | `[Pending / Ordered / Received]` |
-| `[Item]` | `[Reason]` | `[Link]` | `[Date]` | `[Pending / Ordered / Received]` |
+| `[OLED screen]` | `[To indicate Game starting]` | `[https://robu.in/product/0-96-inch-yellow-yellow-blue-oled-lcd-led-display-module]` | `[9th April]` | `[Ordered]` |
+| `[Ping Pong balls]` | `[To play the game]` | `[https://www.zepto.com/pn/decathlon-pongori-table-tennis-balls-size-40/pvid/bbe161b5-8d31-4e81-8371-8b3506caf228?marketplaceType=SUPER_SAVER]` | `[9th April]` | `[Ordered]` |
+| `[Wooden Skewers]` | `[Outer structure of the machine]` | `[https://amzn.in/d/0gfdTNE3]` | `[9th April]` | `[Ordered]` |
 
 ## 12.4 Budget Summary
 
 | Budget Item | Estimated Cost |
 |---|---:|
-| Electronics | `[Cost]` |
-| Mechanical parts | `[Cost]` |
-| Fabrication materials | `[Cost]` |
+| Electronics | `[150]` |
+| Mechanical parts | `[200]` |
+| Fabrication materials | `[200]` |
 | Purchased extras | `[Cost]` |
 | Contingency | `[Cost]` |
-| **Total** | `[Cost]` |
+| **Total** | `[550]` |
 
 ## 12.5 Budget Reflection
 If your cost is too high, what can be simplified, removed, substituted, or shared?
 
 **Response:**  
-`[Write here]`
+`[Oled screen can be removed, it adds to the game interaction but is not a necessary element ]`
 
 ---
 
@@ -598,14 +600,14 @@ Documentation was updated regularly alongside the build process.]`
 
 | Task ID | Task | Owner | Estimated Hours | Deadline | Dependency | Status |
 |---|---|---|---:|---|---|---|
-| T1 | `[Finalize concept]` | `[Pramiti and Siya]` | `2` | `[4th April]` | `None` | `To Do` |
-| T2 | `[Complete BOM]` | `[Pramiti and Siya]` | `1` | `[8th April]` | `T1` | `To Do` |
-| T3 | `[Test electronics]` | `[Siya]` | `2` | `[10th April]` | `T1` | `To Do` |
-| T4 | `[Build structure]` | `[Pramiti]` | `4` | `[17th April]` | `T1` | `To Do` |
-| T5 | `[Write control code]` | `[Pramiti]` | `4` | `[15th April]` | `T3` | `To Do` |
-| T6 | `[Integrate system]` | `[Siya]` | `4` | `[16th April]` | `T4, T5` | `To Do` |
-| T7 | `[Playtest]` | `[Siya]` | `2` | `[16th April]` | `T6` | `To Do` |
-| T8 | `[Refine and document]` | `[Pramiti]` | `3` | `[19th April]` | `T7` | `To Do` |
+| T1 | `[Finalize concept]` | `[Pramiti and Siya]` | `2` | `[4th April]` | `None` | `Done` |
+| T2 | `[Complete BOM]` | `[Pramiti and Siya]` | `1` | `[8th April]` | `T1` | `Done` |
+| T3 | `[Test electronics]` | `[Siya]` | `2` | `[10th April]` | `T1` | `Done` |
+| T4 | `[Build structure]` | `[Pramiti]` | `4` | `[17th April]` | `T1` | `Done` |
+| T5 | `[Write control code]` | `[Pramiti]` | `4` | `[15th April]` | `T3` | `Done` |
+| T6 | `[Integrate system]` | `[Siya]` | `4` | `[16th April]` | `T4, T5` | `Done` |
+| T7 | `[Playtest]` | `[Siya]` | `2` | `[16th April]` | `T6` | `Done` |
+| T8 | `[Refine and document]` | `[Pramiti]` | `3` | `[19th April]` | `T7` | `Done` |
 
 ## 13.3 Responsibility Split
 
